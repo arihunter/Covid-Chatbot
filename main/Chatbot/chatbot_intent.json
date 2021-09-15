@@ -1,0 +1,193 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+	{"tag": "Personal_info",
+         "patterns": ["What is your name","Who are you","Are you robot","What are you?"],
+         "responses": ["I am your friend Cruz,the bot"],
+         "context": [""]
+        },
+	{"tag": "Casual_chat",
+         "patterns": ["What do you do to relax","Do you watch movies","What songs you listen"],
+         "responses": ["I watch netflix most of the time","Currently I am watching DARK,I also love Office and Friends","I listen to beatles"],
+         "context": [""]
+        },	
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through symptoms of corona, I can provide you with statistics of corona, Hospitals and Pharmacies","I can solve your queries for corona","I can help you with Covid knowledge"],
+         "context": [""]
+        },
+	{"tag": "Defination",
+         "patterns": ["What is corona-virus", "What is corona", "What is covid"],
+         "responses": ["A novel coronavirus (CoV) is a new strain of coronavirus that has not been previously identified in humans.","Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS)"],
+         "context": [""]
+        },
+	{"tag": "Pharmacies and Hospitals",
+         "patterns": ["Pharmacy near me","Medical Store near me","Hospital near me"],
+         "responses": ["Please visit this link-> https://www.google.com/search?q=hospitals+near+me&rlz=1C1CHBF_enIN816IN816&oq=hospitals+near+me&aqs=chrome.0.69i59j0l5.4921j0j4&sourceid=chrome&ie=UTF-8"],
+         "context": [""]
+        },
+	{"tag": "Statistics",
+         "patterns": ["Give me data about corona","How many cases increased yesterday","How many cases increased in India yesterday","Covid-19 india cases","corona india cases","how many people died due to corona","Give me figures"],
+         "responses": ["Please visit this link-> https://www.worldometers.info/coronavirus/"],
+         "context": [""]
+        },
+	{"tag": "Symptoms",
+         "patterns": ["I have headache","I have cough and fever","Body-ache","I am not able to breathe properly","My nose is running","I have cough from two days","I am not feeling well","I checked on internet I have corona","I am having much pain","I cant get taste of the food I am eating","What are the symptoms of someone infected with a coronavirus?","Is headache a symptom of the coronavirus disease?"],
+         "responses": ["Corona has symptoms common with many diseases , please check your symptoms here again ->https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html ","Dont panic corona has a very low mortality rate","It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death."],
+         "context": [""]
+        },
+	{"tag": "Symptoms_defination",
+         "patterns": ["What are the symptoms of COVID-19?","What are the symptoms of corona","How do i check if i have corona","what are symptoms of corona"],
+         "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually.	
+","Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment.	
+","Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. 	"],
+         "context": [""]
+        },
+	{"tag": "Transmission",
+         "patterns": ["How can I get corona","How is corona transmitted","How will i get infected","Can coronaviruses be transmitted from person to person?"],
+         "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. 	
+","People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.	
+","The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low.	
+","Yes, some coronaviruses can be transmitted from person to person, usually after close contact with an infected patient, for example, in a household workplace, or health care centre."],
+         "context": [""]
+        },
+	{"tag": "Smokers",
+         "patterns": ["I am an avid smoker,what are the risks i face ?","I smoke,am I at risk","I smoke tobacco,How vulnearable am I?","I drink ciggarettes,what risks i face due to corona","ciggarettes","tobacco"],
+         "responses": ["Smokers are likely to be more vulnerable to COVID-19 as the act of smoking means that fingers (and possibly contaminated cigarettes) are in contact with lips which increases the possibility of transmission of virus from hand to mouth.	
+","Smoking products such as water pipes often involve the sharing of mouth pieces and hoses, which could facilitate the transmission of COVID-19 in communal and social settings.	
+"],
+         "context": [""]
+        },
+	{"tag": "Protection",
+         "patterns": ["What should I do to save myself","How can i protect myself from corona","What should I do?","How can i be safe","How can i protect myself","What can I do to protect myself?
+"],
+         "responses": ["Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.	
+","Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.
+","Avoid touching eyes, nose and mouth.
+","Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.	
+","Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.	
+","If possible, avoid traveling to places  – especially if you are an older person or have diabetes, heart or lung disease.	
+","Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID is spreading widely).	
+","Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing."],
+         "context": [""]
+        },
+	{"tag": "Things not to do",
+         "patterns": ["What should i not do","Things I should not do","Things that may harm me severely","What are the things I should not do","Things that are bad to do now","Wrong things"],
+         "responses": ["Smoking
+","Wearing multiple masks
+","Taking antibiotics"],
+         "context": [""]
+        },
+	{"tag": "People with risks",
+         "patterns": ["Who are at most risk","people with most chances of getting infected","who are most vulnearble?","what are at most risk?"],
+         "responses": ["People with medical conditions like high blood pressure,cancer,diabetes","Old people show a higher fatality rate"],
+         "context": [""]
+        },
+	{"tag": "Pregnant Women",
+         "patterns": ["How much risk do pregnant women have","Pregnancy","Are pregnant women at higher risk from COVID?","What should pregnant women do to take care of themselves"],
+         "responses": ["At present there is no evidence that they are at higher risk of severe illness than the general population.	
+","Pregnant women should take the same precautions to avoid COVID infection as other people.
+","Pregnant women and women who have recently delivered – including those affected by COVID - should attend their routine care appointments. 	
+"],
+         "context": [""]
+        },
+	{"tag": "New-Born Babies",
+         "patterns": ["How much are infants at risk","New-born baby risks","What are the risk small child face"],
+         "responses": ["Infants should be taken care very much","Infants should be avoided contact until most care is needed"],
+         "context": ["Pregnant Women"]
+        },
+	{"tag": "Covid-19 virus life",
+         "patterns": ["How long does the virus survive on surfaces?","How long virus exist on a surface","What should I do to clean an infected surface"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses.	
+","Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment).	
+","If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others.	"],
+         "context": [""]
+        },
+	{"tag": "Mass-Gathering",
+         "patterns": ["What can be called as mass-gathering","How much people constitute a mass-gathering","How large does a meeting or event need to be in order to be a “mass gathering”?"],
+         "responses": ["An event counts as a “mass gatherings” if the number of people it brings together is so large that it has the potential to strain the planning and response resources of the health system in the community where it takes place. 	
+","High profile international sporting events such as the Olympics or World Cups as well as international religious events such as the Hajj count as mass gatherings.	"],
+         "context": [""]
+        },
+	{"tag": "Treatment",
+         "patterns": ["Is there a vaccine, drug or treatment for COVID?","Can COVID be treated","Can corona be treated","Is there a vaccine available for corona","Is there any treatment available ?","What are the medicines/drugs available?","Is there a cure available?","Are there any medicines or therapies that can prevent or cure COVID-19?","Is there a treatment for a novel coronavirus?"],
+         "responses": ["Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. 	
+","Those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.","Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.	
+","The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing.","While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. 	
+","WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19.","There is no specific treatment for disease caused by a novel coronavirus. However, many of the symptoms can be treated and therefore treatment based on the patient’s clinical condition. Moreover, supportive care for infected persons can be highly effective."],
+         "context": [""]
+        },
+	{"tag": "Mask",
+         "patterns": ["Are masks enough?","Should I wear a mask to protect myself","Wha"],
+         "responses": ["Only wear a mask if you are ill with COVID symptoms (especially coughing) or looking after someone who may have COVID. Disposable face mask can only be used once.	
+","If you are not ill or looking after someone who is ill then you are wasting a mask.","There is a world-wide shortage of masks, so WHO urges people to use masks wisely.
+","Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough."],
+         "context": [""]
+        },
+	{"tag": "Care for masks",
+         "patterns": ["Care for masks?","How to handle masks with care?","Should I throw the mask after use","How to dispose a mask?"],
+         "responses": ["Before touching the mask, clean hands with an alcohol-based hand rub or soap and water","Try to use disposable masks"," Inspect it for tears or holes.","Ensure the proper side of the mask faces outwards"],
+         "context": ["Mask"]
+        },
+	{"tag": "Incubation-Period",
+         "patterns": ["How long is the incubation period for COVID?","How long before I show symptoms for corona","Is 14 day period enough?","Is a 14-day quarantine period optimal for effectively controlling coronavirus disease 2019 (COVID-19)?"],
+         "responses": ["The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease.","Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available.",""],
+         "context": [""]
+        },
+	{"tag": "Recieving shipment",
+         "patterns": ["Is it safe to recieve packages","Is it safe to get home delivery?","Should I order online food?"],
+         "responses": ["Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."],
+         "context": [""]
+        },
+	{"tag": "Infected Animals",
+         "patterns": ["Can humans be infected with the COVID from an animal source?","Can I catch COVID from my pet?","Can corona be transmitted from my pet?","Should I eat animals?","Should I stop eating non-veg?","Should i eat chicken?","Should i eat mutton?"],
+         "responses": ["Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people.","Possible animal sources of COVID-19 have not yet been confirmed.","To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals.","Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."],
+         "context": [""]
+        },
+	{"tag": "Worry",
+         "patterns": ["Should I worry about corona","I am very tensed about COVID","I fear I may die due to corona"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care.	
+","We can channel our concerns into actions to protect ourselves, our loved ones and our communities.	"],
+         "context": [""]
+        },
+	{"tag": "Airborne",
+         "patterns": ["Is the coronavirus disease airborne transmitted?","Can coronavirus travel from air","Is coronavirus airborne?"],
+         "responses": ["According to current evidence, COVID-19 virus is primarily transmitted between people through respiratory droplets and contact routes."],
+         "context": [""]
+        },
+	{"tag": "Social Distancing",
+         "patterns": ["What is Social Distancing"],
+         "responses": ["Social distancing is a non-pharmaceutical infection prevention and control intervention implemented to avoid/decrease contact between those who are infected with a disease"],
+         "context": [""]
+        },
+	{"tag": "Sanitizer",
+         "patterns": ["Which sanitizer is good?","What sanitizer should i use?"],
+         "responses": ["According to WHO, sanitizer with atleast 70% ethanol concentration is good"],
+         "context": [""]
+        },
+	{"tag": "Personal-Care",
+         "patterns": ["What should i do to take care of my hygeine?","How should i clean myself","What precautions should I take?"],
+         "responses": ["Wash your hands for atleast 20 seconds with soap","Take regular bath","Change your clothes on regular basis"],
+         "context": [""]
+        }
+		
+   ]
+}
